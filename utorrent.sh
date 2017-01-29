@@ -5,13 +5,15 @@
 #
 
 USER="utorrent"
+UTORRENT_UID=$PUID
+UTORRENT_GID=$PGID
 
 echo "utorrent settings"
 echo "================="
 echo
 echo "  User:       ${USER}"
-echo "  UID:        ${UTORRENT_UID:=666}"
-echo "  GID:        ${UTORRENT_GID:=666}"
+echo "  UID:        ${UTORRENT_UID}"
+echo "  GID:        ${UTORRENT_GID}"
 echo
 
 #
